@@ -52,8 +52,8 @@ public class SymmetricEncryption {
     }
 
     public static void main(String[] args) throws Exception{
-        String secretWord = "secretTest";
-        String wordToEncDec = "test text";
+        String secretWord = "some secret key word";
+        String wordToEncDec = "some word ";
         String encrypted = encrypt(wordToEncDec, secretWord);
         String decrypted = decrypt(encrypted, secretWord);
         System.out.println("Word to be encrypted and decrypted: " + wordToEncDec);
